@@ -12,3 +12,6 @@ ps.在尽可能不改动Verify代码的情况下
 有没有什么方法在不改动业务代码的情况下，在测试调用时执行某些操作，可以使得新创建的业务线程可以get到测试代码设置的attribute呢...
 
 具体项目代码是如何使得在Junit调用业务代码时，使用新的线程去执行，具体的实现步骤我还没搞懂，只知道是通过proxy实现的
+
+## run
+[runWith](https://github.com/ArchGeass/JunitThreadLocalSetValue/blob/master/src/test/java/org/github/geass/service/VerifyTest.java)
