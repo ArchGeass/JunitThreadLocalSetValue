@@ -14,4 +14,5 @@ ps.在尽可能不改动Verify代码的情况下
 具体项目代码是如何使得在Junit调用业务代码时，使用新的线程去执行，具体的实现步骤我还没搞懂，只知道是通过proxy实现的
 
 ## run
+如果不是通过线程池创建，而是通过Spring的@Async实现，又应该如何实现上述效果呢?
 [runWith](https://github.com/ArchGeass/JunitThreadLocalSetValue/blob/master/src/test/java/org/github/geass/service/VerifyTest.java)
