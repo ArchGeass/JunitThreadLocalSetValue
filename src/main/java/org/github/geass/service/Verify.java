@@ -14,7 +14,7 @@ public class Verify {
         if (null != result)
             System.out.println("Attribute is: " + result.toString());
         else
-            System.out.println("getAttribute fail!");
+            System.out.println("getAttribute fail!:" + key);
         return result;
     }
 }
